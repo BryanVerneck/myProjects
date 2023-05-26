@@ -19,6 +19,9 @@ module.exports = {
         'burntSienna': '#E76F51',
         'white': '#efedd0',
       },
+      borderWidth: {
+        "1": "1px"
+      }
     },
     fontFamily: {
       'oswald': ['Oswald', 'sans-serif'],
