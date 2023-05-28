@@ -1,0 +1,46 @@
+[
+  {
+    "title": "WAITERAPP",
+    "subtitle": "For creating and managing your orders! 🍕",
+    "description": "WaiterApp has a mobile version for requesting a order based in the list of products available. You can filter the products by categories, add the items in a cart and submit. WaiterApp also have a web version for managing the workflow of all the orders, for that we use websockets, so once the orders are submitted from mobile you can instantly view the items in the web without any manual refreshing.",
+    "techImagePaths": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
+    ],
+    "gitLink": "https://github.com/BryanVerneck/Waiter_App",
+    "webLink": "https://waiterapp-bryanvck.vercel.app",
+    "mobileLink": "https://expo.dev/@bryanverneck/waiter-app",
+    "projectImage": "/WaiterApp.png",
+    "backgroundColor": "sandyBrown"
+  },
+  {
+    "title": "Mapping",
+    "subtitle": "Get recomendations and discover new places 🌍",
+    "description": "Mapping is a mobile app that will make recomendations of places around you as bars, museums and parks, based in your preferences previously selected, we use google maps API to get the establishment data and our machine learning algorithm keeps making ajustments to show you the best options available based in each feedback you submit in the app.",
+    "techImagePaths": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+    ],
+    "gitLink": "https://github.com/BryanVerneck/Mapping",
+    "projectImage": "/mapping(1).png",
+    "backgroundColor": "sandyBrown"
+  },
+  {
+    "title": "MOVEIT",
+    "subtitle": "Be productive and keep moving 🚀",
+    "description": "MoveIt is a web application for keeping you moving while also being productive. Once the timer is over, a challenge will be lauched and if you completed it you will receive some experience points. Its a simple frontend application that uses a lot of Reactjs context API.",
+    "techImagePaths": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
+    ],
+    "gitLink": "https://github.com/BryanVerneck/NLW4-MoveIT",
+    "webLink": "https://moveit-sandy-gamma.vercel.app/",
+    "projectImage": "/moveIt.png",
+    "backgroundColor": "charcoal"
+  }
+]

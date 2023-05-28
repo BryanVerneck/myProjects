@@ -5,3 +5,4 @@ export const typescript = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ty
 export const nodejs = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg';
 export const tailwindcss = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg';
 export const gitHub = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg';
+export const linkedin = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg';

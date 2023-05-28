@@ -8,6 +8,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: 'var(--font-roboto)',
+        alt: 'var(--font-bai-jamjuree)',
+      },
       height: {
         "0.25": "1px",
       },
@@ -17,11 +21,12 @@ module.exports = {
         'saffron': '#338493',
         'sandyBrown': '#F4A261',
         'burntSienna': '#E76F51',
-        'white': '#efedd0',
+        'customWhite': '#efedd0',
+        'customGreen': '#79ce46',
       },
       borderWidth: {
         "1": "1px"
-      }
+      },
     },
     fontFamily: {
       'oswald': ['Oswald', 'sans-serif'],

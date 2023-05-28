@@ -1,10 +1,14 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: '700',
+  subsets: ['latin'],
+  variable: '--font-roboto'
+});
 
 export const metadata = {
-  title: 'My Projects',
+  title: 'Bryan Verneck',
   description: 'Here you can see a bit of my work.',
 }
 
@@ -15,7 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-charcoal text-white">{children}</body>
+      <body className={`${roboto.variable} font-sans bg-charcoal text-white`}>
+        {children}
+      </body>
     </html>
   )
 }
