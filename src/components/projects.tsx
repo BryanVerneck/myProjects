@@ -1,7 +1,7 @@
-'use client';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComputer, faMobile } from '@fortawesome/free-solid-svg-icons';
 import Image from "next/image";
+import Link from "next/link";
 
 interface ProjectData {
   title: string;
@@ -59,35 +59,35 @@ export default function ProjectContainer({
               )
             })}
           </div>
-          {/* <h2 className="mt-3 mb-1 font-bold">
-            ACCESS LINK / SOURCE CODE
-          </h2> */}
           <div className="flex flex-row gap-3 mt-6">
             {mobileLink && (
-              <button
-                onClick={() => openLink(mobileLink)}
-                className={`flex flex-col items-center border-solid border-1 border-customWhite p-3 rounded-lg hover:text-charcoal hover:bg-customGreen hover:border-customGreen cursor-pointer`}>
-                <FontAwesomeIcon icon={faMobile} className="w-7 h-7" />
-                Mobile
-              </button>
+              <Link href={mobileLink} target="_blank">
+                <button
+                  className={`flex flex-col items-center border-solid border-1 border-customWhite p-3 rounded-lg hover:text-charcoal hover:bg-customGreen hover:border-customGreen cursor-pointer`}>
+                  <FontAwesomeIcon icon={faMobile} className="w-7 h-7" />
+                  Mobile
+                </button>
+              </Link>
             )}
             {webLink && (
-              <button
-                onClick={() => openLink(webLink)}
-                className={`flex flex-col items-center border-solid border-1 border-customWhite p-3 rounded-lg hover:text-charcoal hover:bg-customGreen hover:border-customGreen cursor-pointer`}>
-                <FontAwesomeIcon icon={faComputer} className="w-7 h-7" />
-                Web
-              </button>
+              <Link href={webLink} target="_blank">
+                <button
+                  className={`flex flex-col items-center border-solid border-1 border-customWhite p-3 rounded-lg hover:text-charcoal hover:bg-customGreen hover:border-customGreen cursor-pointer`}>
+                  <FontAwesomeIcon icon={faComputer} className="w-7 h-7" />
+                  Web
+                </button>
+              </Link>
             )}
             {gitLink && (
-              <button
-                onClick={() => openLink(gitLink)}
-                className={`flex flex-col items-center border-solid border-1 border-customWhite p-3 rounded-lg hover:text-charcoal hover:bg-customGreen hover:border-customGreen cursor-pointer`}>
-                <div className="font-bold text-xl">
-                  {`</>`}
-                </div>
-                Source code
-              </button>
+              <Link href={gitLink} target="_blank">
+                <button
+                  className={`flex flex-col items-center border-solid border-1 border-customWhite p-3 rounded-lg hover:text-charcoal hover:bg-customGreen hover:border-customGreen cursor-pointer`}>
+                  <div className="font-bold text-xl">
+                    {`</>`}
+                  </div>
+                  Source code
+                </button>
+              </Link>
             )}
           </div>
         </div>
