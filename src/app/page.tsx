@@ -1,7 +1,7 @@
 import projects from '../projects.json';
-import Header from "../components/Header";
-import Introduction from "../components/Introduction";
-import ProjectContainer from "../components/Projects";
+import Header from "@/components/Header";
+import Introduction from "@/components/Introduction";
+import ProjectContainer from '@/components/Projects';
 
 export default function Home() {
 
@@ -26,7 +26,7 @@ export default function Home() {
           <div className='w-full h-full [&>*:nth-child(odd)]:shadow-md [&>*:nth-child(even)]:shadow-md'>
             {projects.map((item, index) => {
             return(
-              <ProjectContainer 
+              <ProjectContainer
                 title={item.title} 
                 subtitle={item.subtitle}
                 description={item.description}
