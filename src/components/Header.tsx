@@ -12,7 +12,7 @@ export default function Header(){
 
             <nav className="text-base flex justify-center gap-6 flex-1">
               <a href="#home" className="opacity-60 hover:opacity-100 transition">Home</a>
-              <a href="#aboutMe" className="opacity-60 hover:opacity-100 transition whitespace-nowrap">About me</a>
+              {/* <a href="#aboutMe" className="opacity-60 hover:opacity-100 transition whitespace-nowrap">About me</a> */}
               <a href="#portfolio" className="opacity-60 hover:opacity-100 transition">Portfolio</a>
             </nav>
             
