@@ -12,7 +12,7 @@
     "gitLink": "https://github.com/BryanVerneck/Waiter_App",
     "webLink": "https://waiterapp-bryanvck.vercel.app",
     "mobileLink": "https://expo.dev/@bryanverneck/waiter-app",
-    "projectImage": "/WaiterApp.png",
+    "projectImage": "/waiterAppImage.png",
     "backgroundColor": "sandyBrown"
   },
   {
@@ -26,7 +26,7 @@
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
     ],
     "gitLink": "https://github.com/BryanVerneck/Mapping",
-    "projectImage": "/mapping(1).png",
+    "projectImage": "/mappingImage.png",
     "backgroundColor": "sandyBrown"
   },
   {
@@ -40,7 +40,7 @@
     ],
     "gitLink": "https://github.com/BryanVerneck/NLW4-MoveIT",
     "webLink": "https://moveit-sandy-gamma.vercel.app/",
-    "projectImage": "/moveit.png",
+    "projectImage": "/moveItImage.png",
     "backgroundColor": "charcoal"
   }
 ]
